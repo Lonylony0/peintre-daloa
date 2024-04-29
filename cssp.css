@@ -1,0 +1,210 @@
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat',sans-serif;
+    background: linear-gradient(45deg,#e2a9e5 15%,#2b94e5 100%);
+}
+.bonjour
+{
+    background-color: #000;
+    color: azure;
+    margin-top: 5px;
+    padding: -5px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 5px solid #6f6f6f;
+    
+}
+nav h1
+{
+    color: #717171;
+    font-family: 'playfair display,sans-serif';
+    font-size:30px;
+
+}
+nav .onglets
+{
+margin-top: 3px;
+margin-left: 300px;
+}
+nav .onglets a{
+text-decoration: none;
+color: #000;
+margin-right: 10px;
+border-bottom: 1px solid #000;
+padding-bottom: 5px;
+}
+
+   header
+   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('images/carr.jpg');
+    background-size: cover; 
+    color: black;
+   } 
+header  h1{
+    font-family:'playfair display,sans-serif';
+    font-size: 50px;
+     }
+     header  h4{
+        /* margin-top: ; */
+        font-size: 20;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+        color: azure;
+    }
+    header button{
+        padding: 10px 20px ;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        font-size: 20px;
+        font-family:'playfair display,sans-serif';
+        outline: none;
+        cursor: pointer;
+          margin-bottom: 10px;   /* moi meme */
+       
+
+    }
+    .main
+    {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .main .contenu .carte .right img
+    {
+        height: 300px;
+        width: 400px;
+        margin-top: 5px;
+        
+
+        }
+        .main .contenu .carte
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+            
+
+        }
+        .main .contenu .carte .left
+        {
+            flex: 0 0 30%;
+            padding: 20px;
+            background-color: black;
+            color: azure;
+
+        }
+        .main .contenu .carte.right
+        {
+           flex:  0 0 70%;
+        }
+        footer
+        {
+            margin-top: 40px;
+            border-top: 5px solid#6f6f6f;
+            background-color: #000;
+            color: azure;
+            padding: 30px 100px;
+
+        }
+footer h1
+{
+    font-family:'playfair display,sans-serif';
+    border-bottom: 1px solid #fff;
+    width: 115px;
+    padding-bottom: 5px;
+}
+/* moi meme */
+h1 img{
+    border-radius: 15px;
+}
+footer .services
+{
+    margin-top: -10px;
+    display: flex;
+     flex-wrap: wrap; 
+}
+footer .services .service
+{
+    margin-right: 30px;
+    padding: 10px;
+
+}
+footer .services .service p 
+{
+    max-width: 300px;
+}
+footer #contact
+{
+   color: grey;
+}
+
+footer .pi
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+footer .pi .paie
+{
+    align-items: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:600px)
+{
+nav .onglets
+{
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+}
+.main .carte{
+    margin:10px;
+
+
+}
+.main .contenu .carte .right img
+{
+    height: 200px;
+    width: 100%;
+    margin-top: 0px;
+   
+}
+ .main .contnent .carte
+{
+    display: block;
+    
+}
+footer
+{
+   padding: 30px; 
+}
+.main .contenu .carte .left
+{
+    height: 200px;
+    width: 400px;
+    margin-top: 0px;
+}
+
+}
